@@ -4,13 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survey Page 2</title>
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
     <h1>Business Analytics Student Survey</h1>
     <p>Page 2 of the survery</p>
-    <p><button onclick="window.location.href='snehpatel_p3.html';">
+    <main>
+        <form>
+
+            <fieldset>
+                <legend> I am finishing my </legend>
+                  <label for="first-year">
+                    <input type="radio" id="first-year" name="year" value ="first-year"> first year at Iowa
+                  </label>    
+                  <br>
+                  <label for="second-year">
+                    <input type="radio" id="second-year" name="year" value="second-year"> second year at Iowa
+                  </label>
+                  <br>
+                  <label for="third-year">
+                    <input type="radio" id="third-year" name="year" value="third-year"> third year at Iowa
+                  </label>
+                  <br>
+                  <label for="fourth-year">
+                    <input type="radio" id="fourth-year" name="year" value="fourth-year"> fourth year at Iowa
+                  </label>
+                  <br>
+                  <label for="fifth-or-more-year">
+                    <input type="radio" id="fifth-or-more-year" name="year" value="fifth-or-more-year"> fifth or more year at Iowa
+                  </label>
+              </fieldset> 
+
+              <br>
+
+              <fieldset>
+                <legend> BAIS core classes I have completed </legend>
+                  <label for="Information-Systems">
+                    <input type="checkbox" id="Information-Systems" name="core-classes" value ="Information-Systems"> Information Systems
+                  </label>    
+                  <br>
+                  <label for="Operations">
+                    <input type="checkbox" id="Operations" name="core-classes" value ="Operations"> Operations
+                  </label>    
+                  <br>
+                  <label for="Foundations-of-Business-Analytics">
+                    <input type="checkbox" id="Foundations-of-Business-Analytics" name="core-classes" value ="Foundations-of-Business-Analytics"> Foundations of Business Analytics
+                  </label>    
+                  <br>
+                  <label for="Computational-Thinking">
+                    <input type="checkbox" id="Computational-Thinking" name="core-classes" value ="Computational-Thinking"> Computational Thinking
+                  </label>    
+                  <br>
+                  <label for="Database-Management">
+                    <input type="checkbox" id="Database-Management" name="core-classes" value ="Database-Management"> Database Management
+                  </label>    
+                  <br>
+                  <label for="Data-Wrangling">
+                    <input type="checkbox" id="Data-Wrangling" name="core-classes" value ="Data-Wrangling"> Data Wrangling
+                  </label>    
+                  <br>
+                  <label for="Data-Mining">
+                    <input type="checkbox" id="Data-Mining" name="core-classes" value ="Data-Mining"> Data Mining
+                  </label>    
+                  <br>
+                  <label for="BAIS-Capstone">
+                    <input type="checkbox" id="BAIS-Capstone" name="core-classes" value ="BAIS-Capstone"> BAIS Capstone
+                  </label>    
+              </fieldset> 
+
+
+        </form>
+    </main>
+    <footer>
+        <span class="page_number">page 2 of 3</span>
+        <button class="next_button"onclick="window.location.href='snehpatel_p3.html';">
         Next
-      </button>
-    </p>
+        </button>
+    </footer>
 </body>
 </html>
